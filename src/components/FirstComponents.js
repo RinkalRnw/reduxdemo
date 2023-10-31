@@ -12,8 +12,7 @@ const FirstComponents = () => {
         {/* value iniatialize & store to provider */}
         <userContext.Provider value={user.name}>
             <h3>First Component Called..{user.name}</h3>
-            <SecondComponents />
-            
+            <SecondComponents />            
         </userContext.Provider>  
         </div>
     );

@@ -1,15 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-import Counter from './Counter';
-import FirstComponents from './components/FirstComponents';
+import ReducerExample from './components/ReducerExample';
 
 
 function App() {
   
   return (
     <div className="App">
-      <FirstComponents />
-      
+      <ReducerExample />
     </div>
   );
 }
