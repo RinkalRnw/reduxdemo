@@ -24,7 +24,6 @@ function createReducer(state,action){
             }
     }
 }
-
 const ReducerExample = () => {
     const [state, dispatch] = useReducer(createReducer,{list})
     return (
